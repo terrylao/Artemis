@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="31">
+      <Unit0>
+        <Filename Value="Artemis2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="17"/>
+        <CursorPos X="26" Y="23"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="212"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="frmview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ViewForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmView"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="50"/>
+        <CursorPos X="31" Y="62"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\iLBCcodec\iLbcCodec.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="19"/>
+        <CursorPos X="15" Y="2"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ZLibEx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2222"/>
+        <CursorPos X="82" Y="2224"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\AICSource\AICLib\Encoder\AICEncoder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="97"/>
+        <CursorPos X="50" Y="99"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\AICSource\AICLib\Decoder\AICDecoder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="46"/>
+        <CursorPos X="86" Y="52"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\AICSource\AICLib\Common\AICBase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="124"/>
+        <CursorPos X="42" Y="142"/>
+        <UsageCount Value="209"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="iphlpapi.pp"/>
+        <EditorIndex Value="20"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="socketfunc.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18" Y="15"/>
+        <UsageCount Value="41"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="ScreenSpy.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="419"/>
+        <CursorPos X="7" Y="302"/>
+        <UsageCount Value="86"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="AudioThread.pas"/>
+        <EditorIndex Value="18"/>
+        <TopLine Value="127"/>
+        <CursorPos X="11" Y="141"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\iLBCcodec\C2Delphi_header.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="41"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="protocolHandler.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="184"/>
+        <CursorPos X="21"/>
+        <UsageCount Value="41"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ServerThread.pas"/>
+        <EditorIndex Value="15"/>
+        <TopLine Value="183"/>
+        <CursorPos X="50" Y="198"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="atermisworker.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="197"/>
+        <CursorPos Y="201"/>
+        <UsageCount Value="109"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="AtermisClient.pas"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="59"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\lcl\include\picture.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="581"/>
+        <CursorPos Y="595"/>
+        <UsageCount Value="3"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="ScreenMon.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="17" Y="133"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos X="11" Y="21"/>
+        <UsageCount Value="7"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="926"/>
+        <CursorPos Y="940"/>
+        <UsageCount Value="1"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\lcl\include\fpimagebitmap.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="127"/>
+        <CursorPos Y="141"/>
+        <UsageCount Value="81"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\include\rasterimage.inc"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="734"/>
+        <CursorPos Y="749"/>
+        <UsageCount Value="103"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\AICSource\AICLib\Encoder\AICFwdColorConversion.pas"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="27" Y="84"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\AICSource\AICLib\Decoder\AICInvColorConversion.pas"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="92"/>
+        <CursorPos X="45" Y="92"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\AICSource\AICLib\Common\AICCommon.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="25"/>
+        <CursorPos X="3" Y="83"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1271"/>
+        <CursorPos X="29" Y="1285"/>
+        <UsageCount Value="65"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="TCPWorkerThread.pas"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="3"/>
+        <CursorPos X="13" Y="131"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\packages\rtl-extra\src\win\winsock2.pp"/>
+        <UnitName Value="WinSock2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1207"/>
+        <CursorPos X="10" Y="1222"/>
+        <UsageCount Value="8"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\lazarus\lcl\include\lclintf.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="265"/>
+        <CursorPos Y="280"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="9927"/>
+        <CursorPos Y="9942"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit30>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="71" Column="31" TopLine="62"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="390" Column="24" TopLine="376"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frmview.pas"/>
+        <Caret Line="62" Column="31" TopLine="50"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TCPWorkerThread.pas"/>
+        <Caret Line="27" Column="24" TopLine="11"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TCPWorkerThread.pas"/>
+        <Caret Line="59" Column="14" TopLine="43"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="767" Column="40" TopLine="750"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="766" TopLine="750"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="678" TopLine="668"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="680" TopLine="668"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ServerThread.pas"/>
+        <Caret Line="198" Column="50" TopLine="183"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="766" TopLine="750"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="739" Column="26" TopLine="715"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="738" Column="60" TopLine="724"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="678" TopLine="662"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="684" TopLine="662"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="686" Column="21" TopLine="662"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="54" Column="5" TopLine="44"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="542" Column="26" TopLine="540"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="214" Column="70" TopLine="199"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="221" Column="74" TopLine="206"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="257" Column="62" TopLine="242"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="635" Column="44" TopLine="609"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="683" Column="5" TopLine="667"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="743" Column="8" TopLine="730"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="776" Column="31" TopLine="760"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="578" Column="19" TopLine="213"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="588" Column="16" TopLine="570"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="791" Column="15" TopLine="770"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="794" Column="19" TopLine="775"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ScreenMon.pas"/>
+        <Caret Line="137" TopLine="122"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="mainform.pas"/>
+        <Line Value="258"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="mainform.pas"/>
+        <Line Value="212"/>
+      </Item2>
+    </BreakPoints>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="i+j"/>
+      </Item1>
+      <Item2>
+        <Expression Value="outbufsize"/>
+      </Item2>
+    </Watches>
+  </Debugging>
+</CONFIG>

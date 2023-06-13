@@ -1,0 +1,43 @@
+object ViewForm: TViewForm
+  Left = 358
+  Height = 405
+  Top = 154
+  Width = 497
+  AllowDropFiles = True
+  Caption = 'View'
+  ClientHeight = 405
+  ClientWidth = 497
+  DesignTimePPI = 120
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDropFiles = FormDropFiles
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  OnPaint = FormPaint
+  OnUTF8KeyPress = FormUTF8KeyPress
+  LCLVersion = '2.0.10.0'
+  object sbA: TScrollBox
+    Left = 0
+    Height = 405
+    Top = 0
+    Width = 497
+    HorzScrollBar.Page = 493
+    VertScrollBar.Page = 401
+    Align = alClient
+    ClientHeight = 401
+    ClientWidth = 493
+    TabOrder = 0
+    object PaintBox1: TPaintBox
+      Left = 0
+      Height = 401
+      Top = 0
+      Width = 493
+      OnMouseDown = Image1MouseDown
+      OnMouseMove = Image1MouseMove
+      OnMouseUp = Image1MouseUp
+      OnMouseWheel = Image1MouseWheel
+      OnPaint = PaintBox1Paint
+    end
+  end
+end
