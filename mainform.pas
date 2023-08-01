@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-  MouseAndKeyInput, ScreenMon, ZLibEx, AICEncoder, AICDecoder, Grids, Buttons,
+  MouseAndKeyInput, ScreenMon, ZLibEx,  Grids, Buttons,
   Windows, iphlpapi, AtermisClient, ServerThread, atermisWorker, Messages,
   Clipbrd, ComCtrls, frmView;
 const
@@ -55,7 +55,6 @@ type
     clientSendScreen,Closing:boolean;
     view:TViewForm;
     scr:TScreenMon;
-    dec:TAICDecoder;
     FNextClipboardOwner: HWnd;   // handle to the next viewer
     // Here are the clipboard event handlers
     function WMChangeCBChain(AwParam: WParam; AlParam: LParam):LRESULT;
@@ -233,12 +232,6 @@ begin
       //FBmp1.LoadFromStream(mymms);
       FBmp1.Assign(jpg);
       jpg.free;
-      {FBmp1.BeginUpdate();
-      if dec=nil then
-         dec:=TAICDecoder.Create(mymms,FBmp1)
-      else
-        dec.Expand(mymms,FBmp1);
-      FBmp1.EndUpdate();}
 
       view.PaintBox1.Height :=FBmp1.Height;
       view.PaintBox1.Width:=FBmp1.Width;
