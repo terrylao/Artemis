@@ -3,7 +3,7 @@ unit ScreenMon;
 interface
 
 uses
-   Windows, Classes, SysUtils, Graphics, Math,ZLibEx,AtermisClient,ServerThread,atermisWorker,AICEncoder,syncobjs;
+   Windows, Classes, SysUtils, Graphics, Math,ZLibEx,AtermisClient,ServerThread,atermisWorker,syncobjs;
 const
   FrameCountAfterFullShot=20;
 
@@ -938,7 +938,6 @@ end;
 function TScreenMon.compress(nCmd: Byte):integer;
 var
   jpg:TJpegImage;
-	enc:TAICEncoder;
 	i,j:integer;
 begin
   try
@@ -950,19 +949,14 @@ begin
     if nCmd=21 then
     begin
       jpg.Assign(FBmp1);
-			//enc:=TAICEncoder.Create(FBmp1,FmsOut,90);//全黑，加了BEGINUPDATE 也一樣，且CPU使用率比JPG 高2%
     end
     else
     begin
 		  FmsOut.WriteBuffer(FRect, SizeOf(TRect));
       jpg.Assign(FBmp3);
-			//enc:=TAICEncoder.Create(FBmp3,FmsOut,90);
     end;
     jpg.SaveToStream(FmsOut);
     
-    //enc.free;
-    //ZCompressStream(Fms1, FmsOut);
-		//FmsOut.SaveToFile('out.bin');
     FmsOut.Position := 0;
 		idataType:=nCmd;
     j:=0;
