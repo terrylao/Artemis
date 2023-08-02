@@ -62,18 +62,6 @@
         <Filename Value="ZLibEx.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
-      <Unit5>
-        <Filename Value="..\..\AICSource\AICLib\Encoder\AICEncoder.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="..\..\AICSource\AICLib\Decoder\AICDecoder.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="..\..\AICSource\AICLib\Common\AICBase.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit7>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -84,7 +72,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\..\iLBCcodec;..\..\AICSource\AICLib\Encoder;..\..\AICSource\AICLib\Decoder;..\..\AICSource\AICLib\Common"/>
+      <OtherUnitFiles Value="..\..\iLBCcodec"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>
